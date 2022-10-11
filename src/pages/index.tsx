@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import { Main } from '../components/Main'
 type Props = {
   title: string
 }
@@ -16,9 +16,7 @@ export default function Home({ title = 'Nexta' }: Props) {
       </Head>
 
       <main>
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <Main />
       </main>
     </div>
   )
