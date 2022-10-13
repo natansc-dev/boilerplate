@@ -1,6 +1,6 @@
 import * as S from './styles'
 
-type Props = {
+type MainProps = {
   title: string
   description: string
 }
@@ -8,7 +8,7 @@ type Props = {
 export const Main = ({
   title = 'React Hard',
   description = 'TypeScript, ReactJS, NextJS, e Styled Components'
-}: Props) => (
+}: MainProps) => (
   <S.Wrapper>
     <S.Logo src="#" alt="Image de um átomo e React Avançado escrito ao lado." />
     <S.Title>{title}</S.Title>
