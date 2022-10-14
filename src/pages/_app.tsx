@@ -9,6 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>React - Boilerplate</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="A simple project starter to work with TypeScript, React, NextJs and Styled Components"
